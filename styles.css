@@ -41,12 +41,12 @@ body {
   border-radius: 0.5rem;
 }
 ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   list-style-type: none;
   font-weight: 400;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 h1 {
   font-size: 1.4rem;
@@ -55,17 +55,19 @@ h1 {
   font-weight: 600;
 }
 p {
+  line-height: 1.6rem;
   font-size: 1rem;
-  margin-bottom: 1.2rem;
   font-weight: 300;
 }
 .eth {
   color: hsl(178, 100%, 50%);
 }
 .ethicon {
+  display: flex;
   margin-right: 0.4rem;
 }
 .clock {
+  display: flex;
   margin-right: 0.4rem;
 }
 ul {
